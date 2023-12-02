@@ -1,4 +1,4 @@
-# DSA Problems by The Primeagen – my solutions + commentary:
+# DSA problems: my solutions + commentary
 
 ## Binary searching a list
 
