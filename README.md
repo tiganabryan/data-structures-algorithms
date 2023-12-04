@@ -60,6 +60,10 @@ export default function two_crystal_balls(breaks: boolean[]): number {
 
 <strong>Notes:</strong> Assigned current array element to a variable called temporary element so that it could be assigned to the next array element. still need to figure out why the inner for loop contains -1, and -i. but still chipping away!
 
+Why do we do n-1 at the beginning? OF COURSE! There's nothing to compare the last element of the array to!
+
+`- i` is the number of number of iterations, because we remove one element from the array each time, because each time we sort, the biggest value is already at the end! - 3 numbers because we've done 3 loops and have 3 "largest numbers" already, for example!!! I get it :D
+
 ```ts
 export default function bubble_sort(arr: number[]): void {
     for (let i = 0; i < arr.length; ++i) {
