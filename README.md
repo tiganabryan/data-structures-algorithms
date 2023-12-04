@@ -26,7 +26,7 @@ export default function bs_list(haystack: number[], needle: number): boolean {
 }
 ```
 
-## Two crystal ball problem (work in progress):
+## Two crystal ball problem:
 
 <strong>Notes:</strong> I jumped through the range by the square root of n. I didn't half the dataset this time, because it's not ordered so it's not efficient to do so. I could do it linearly, one by one, but that would have horrible performance so if I jump by the square root I had a smaller interval to look through using linear search, therefore preserving some of my performance. and then I can use my two crystal balls to figure out the highest point I can drop the ball from, without it breaking. the first is to get a general range within the dataset, and the second is to get the exact height. <br />
 
